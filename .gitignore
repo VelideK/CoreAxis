@@ -1,0 +1,36 @@
+# Dependencies
+node_modules
+
+# Build
+dist
+.next
+coverage
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Prisma
+prisma/dev.db
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Turbo
+.turbo
+
+# Cache
+.cache
+
+# Misc
+*.tsbuildinfo
